@@ -28,7 +28,7 @@ jobs:
     
     - name: Test with pytest
       run: |
-        tests_foo.py
+        test_foo.py
 
   deploy:
     needs: build
